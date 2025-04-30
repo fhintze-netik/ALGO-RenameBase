@@ -5,7 +5,7 @@ pageextension 50500 CustomerListNUPBR extends "Customer List"
     {
         addlast(content)
         {
-            field("Items Bought"; Rec."Items Bought")
+            field("Test"; Rec."Test")
             {
                 ToolTip = 'Specifies how many Items were bought by the customer.';
                 ApplicationArea = All;

@@ -4,7 +4,7 @@ pageextension 50501 CustomerCardNUPBR extends "Customer Card"
     {
         addlast(General)
         {
-            field("Items Bought"; Rec."Items Bought")
+            field("Test"; Rec."Test")
             {
                 ToolTip = 'Specifies how many Items were bought buy the customer.';
                 ApplicationArea = All;
