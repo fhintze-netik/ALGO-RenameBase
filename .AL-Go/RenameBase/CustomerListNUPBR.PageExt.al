@@ -8,6 +8,7 @@ pageextension 50500 CustomerListNUPBR extends "Customer List"
             field("Items Bought"; Rec."Items Bought")
             {
                 ToolTip = 'Specifies how many Items were bought by the customer.';
+                ApplicationArea = All;
             }
         }
     }

@@ -7,6 +7,7 @@ pageextension 50501 CustomerCardNUPBR extends "Customer Card"
             field("Items Bought"; Rec."Items Bought")
             {
                 ToolTip = 'Specifies how many Items were bought buy the customer.';
+                ApplicationArea = All;
             }
         }
     }
